@@ -1,0 +1,105 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+body .container {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(-100%, #0C4C7B), to(#1E2F40));
+  background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
+}
+
+body header .text {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 580px;
+          flex: 0 0 580px;
+  color: #FAF9F9;
+  font-family: Nunito Sans;
+  font-style: normal;
+  padding: 170px 0 170px 0;
+}
+
+body header .text h1 {
+  font-weight: 800;
+  font-size: 120px;
+  line-height: 140px;
+  text-transform: uppercase;
+  color: #FAF9F9;
+  margin-bottom: 40px;
+}
+
+body header .text h1 span {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #FBB731;
+  display: block;
+  margin-bottom: 10px;
+}
+
+body header .text p {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 140%;
+  color: #DEDEDE;
+  margin-bottom: 40px;
+}
+
+body header .text button {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1E2F40;
+  background-color: #FBB731;
+  border-radius: 5px;
+  padding: 20px 45px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+body header .visual {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: relative;
+}
+
+body header .visual .bg {
+  width: 432px;
+  height: 100%;
+  background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
+}
+
+body header .visual img {
+  width: 829px;
+  height: 861px;
+  position: absolute;
+  right: -168px;
+}
+/*# sourceMappingURL=main.css.map */
